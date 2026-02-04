@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
     
     <nav className='sm:hidden flex bg-white justify-between items-center md:m-4 p-2 sticky top-0'>
-        <div className=" logo text-[#111111] font-medium justify-center mx-2 text-[#34C759]">HasAlfaz</div>
+        <div className=" logo font-bold justify-center text-2xl mx-2 text-[#34C759]">HasAlfaz</div>
         <div className="">
             <button onClick={()=>setopen(!open)}><RxHamburgerMenu /></button>
         </div>

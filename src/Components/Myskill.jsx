@@ -26,7 +26,7 @@ const icons = [
 
 const TechMarquee = () => {
   return (
-    <div className="marquee py-10 min-h-[20vh]">
+    <div className="marquee min-w-screen py-10 min-h-[20vh]">
       <h2 className="text-2xl font-bold mb-7 text-center">SKILL'S</h2>
       <div className="marquee-track text-black">
         {[...icons, ...icons].map((Icon, index) => (
