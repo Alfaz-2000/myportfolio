@@ -3,13 +3,13 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
 const Services = () => {
   return (
-    <div className='main w-full h-screen'>
-      <h1 className='text-center text-7xl font-bold mt-10'>Servics</h1>
-      <div className="small-info flex  justify-center mt-10 gap-10">
+    <div className='main w-full min-h-screen'>
+      <h1 className='text-center text-3xl font-bold mt-10'>Services</h1>
+      <div className="small-info flex w-full justify-center mt-10 gap-10">
         <span>Free Hosting suggestion</span>
         <span>Free conceltancy</span>
       </div>
-      <div className="services-cards flex flex-col sm:flex-row justify-center items-center w-full mt-4 gap-4">
+      <div className="services-cards flex flex-col sm:flex-row justify-center items-center w-full mt-5 gap-4">
         <div className="card-wordpress w-[95%] sm:w-[25%] h-fit p-1 sm:h-[60vh] bg-[#FFFFFF] rounded-3xl border border-[#1A1A1A]">
         <div className="main-head flex flex-col">
             <h2 className='text-2xl font-bold mt-4 p-2'>Wordpress websites</h2>

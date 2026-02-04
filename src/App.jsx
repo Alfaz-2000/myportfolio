@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './Components/Navbar'
 import Myskill from './Components/Myskill';
 import Services from './Components/Services';
+import Contact from './Components/Contact';
 import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 
@@ -24,17 +25,18 @@ function App() {
           </div>
           <button className='text-xs sm:text-xl font-bold rounded-full bg-blue-400 px-5 py-2'>Download Resume</button>
         </div>
-        <div className="right flex justify-center sm:w-1/2 h-[60vh]   mt-5">
+        <div className="right flex justify-center sm:w-1/2 min-h-[60vh]   mt-5">
         <div className="mt-5">
-          <img className='w-full h-[60vh]' src="/me.png" alt="" />
+          <img className='w-full min-h-[60vh]' src="/me.png" alt="" />
         </div>
         </div>
       </div>
 
+<Myskill/>
       <Services/>
 
-<Myskill/>
      
+      <Contact/>
     </>
   )
 }
