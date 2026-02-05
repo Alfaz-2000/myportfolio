@@ -1,15 +1,15 @@
 import React, {useState} from 'react'
-import { RxHamburgerMenu } from "react-icons/rx";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
     const [open, setopen] = useState(false)
   return (
     <>
     
-    <nav className='sm:hidden flex bg-white justify-between items-center md:m-4 p-2 sticky top-0'>
+    <nav className='sm:hidden flex min-h-[10vh] bg-white justify-between items-center md:m-4 p-2 sticky top-0'>
         <div className=" logo font-bold justify-center text-2xl mx-2 text-[#34C759]">HasAlfaz</div>
-        <div className="">
-            <button onClick={()=>setopen(!open)}><RxHamburgerMenu /></button>
+        <div className="text-2xl px-2">
+            <button onClick={()=>setopen(!open)}><GiHamburgerMenu /></button>
         </div>
     </nav>
     {open &&(
