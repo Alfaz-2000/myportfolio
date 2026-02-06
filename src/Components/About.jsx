@@ -10,7 +10,7 @@ const About = () => {
             <p className='text-[#6b6e74]'>I’m a web developer who enjoys building clean, responsive, and user-friendly websites. I work with modern technologies like React, Tailwind CSS, WordPress, and backend tools to create practical solutions for real-world needs. I’ve also delivered WordPress websites for real clients, focusing on clean design, performance, and reliability. Whether it’s a business website, a custom web application, or a personal project, I’m always learning, improving, and growing as a developer.</p>
         </div>
         <div className="right flex justify-center items-center sm:w-1/2">
-        <img className='w-50 h-80 sm:w-66 sm:h-66 md:w-92 md:h-92 rounded-full object-cover shadow-lg border-4 border-white' src="/me.jpg" alt="" /></div>
+        <img className='w-92 h-102 sm:w-66 sm:h-66 md:w-92 md:h-92 rounded-full object-cover shadow-lg border-4 border-white' src="/me.jpg" alt="" /></div>
       </div>
     </div>
   )
