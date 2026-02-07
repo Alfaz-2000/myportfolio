@@ -9,7 +9,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="brefme w-full text-center ">
-                <p className='text-xs text-gray-500'>I'm a Web Developer focused on clean UI, performance, and real-world solutions.</p>
+                <p className='text-xs sm:text-sm md:text-xl text-gray-500'>I'm a Web Developer focused on clean UI, performance, and real-world solutions.</p>
             </div>
         </div>
     )

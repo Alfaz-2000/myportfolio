@@ -5,6 +5,8 @@ import Myskill from './Components/Myskill';
 import Services from './Components/Services';
 import Contact from './Components/Contact';
 import About from './Components/About';
+import Projects from './Components/Projects';
+import Footer from './Components/Footer';
 import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 
@@ -40,9 +42,11 @@ function App() {
       <Services/>
 
 <About/>
+{/* <Projects/> */}
 
      
       <Contact/>
+      <Footer/>
     </>
   )
 }
