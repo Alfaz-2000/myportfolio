@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero';
+import Marquee from './Components/Marquee';
 import Myskill from './Components/Myskill';
 import Services from './Components/Services';
 import Contact from './Components/Contact';
@@ -38,11 +39,13 @@ function App() {
       </div> */}
       <Hero/>
 
-<Myskill/>
+      <Marquee/>
+
+{/* <Myskill/> */}
       <Services/>
 
 <About/>
-{/* <Projects/> */}
+<Projects/>
 
      
       <Contact/>

@@ -20,7 +20,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="myphone sm:w-1/3 mt-3">
-        <span className='flex justify-center text-3xl sm:text-6xl mb-3 sm:mb-10'><FiPhoneCall /></span>
+        <span className='flex justify-center text-2xl sm:text-5xl mb-3 sm:mb-10'><FiPhoneCall /></span>
           <h3 className='text-center mb-2 text-lg'>Phone</h3>
           <a href="tel:+917406825154" className=" flex justify-center sm:text-lg hover:underline">+91 74068 25154</a>
         </div>
