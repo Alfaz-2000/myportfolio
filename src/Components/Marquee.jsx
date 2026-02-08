@@ -70,7 +70,7 @@ const Marquee = () => {
     ]
 
     return (
-        <div className='container mx-auto mt-5 mb-5 overflow-x-hidden'>
+        <div id='Skills' className='container mx-auto mt-5 mb-5 overflow-x-hidden'>
             <h1 className='text-center md:text-4xl mb-5'>My Skill's</h1>
             <div className="text-gray-600 md:text-ls text-center mb-5 p-5">
             <span>The Programming Languages, FramWorks and tools Which Used and Learned so far!</span>

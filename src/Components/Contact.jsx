@@ -5,7 +5,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { CiMail } from "react-icons/ci";
 const Contact = () => {
   return (
-    <div className='main w-full min-h-screen mt-5'>
+    <div id='Contact' className='main w-full min-h-screen mt-5'>
       <h2 className='text-center text-xl font-bold sm:text-2xl md:text-4xl '>Contact Me</h2>
       <p className='text-center text-xs py-2 px-16 sm:text-xl mt-2 sm:mt-5 text-gray-500'>Contact me to discuss opportunities, projects, or collaborations.</p>
       <div className="myinfo flex flex-col sm:flex-row gap-5 justify-center items-center mt-5 min-h-[50vh]">

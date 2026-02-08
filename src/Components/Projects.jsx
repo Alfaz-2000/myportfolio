@@ -4,7 +4,7 @@ import { GoLinkExternal } from "react-icons/go";
 
 const Projects = () => {
     return (
-        <section className='w-full min-h-screen mt-5 p-2 md:p-5 mb-5'>
+        <section id='Projects' className='w-full min-h-screen mt-5 p-2 md:p-5 mb-5'>
             <div className="">
                 <h1 className='text-center text-4xl'>Projects</h1>
             </div>
