@@ -6,7 +6,7 @@ import { CiMail } from "react-icons/ci";
 
 const Footer = () => {
     return (
-        <footer className='text-white bg-black p-5 mt-5'>
+        <footer className='text-white bg-black p-5 md:mt-5'>
             <div className="main flex flex-col w-full min-h-[20vh] justify-center items-center">
                     <div className="socials flex  mb-5 gap-10">
                         <a href="https://github.com/Alfaz-2000" target="_blank" rel="noopener noreferrer"><FaGithub className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" /></a>

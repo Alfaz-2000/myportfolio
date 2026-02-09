@@ -4,11 +4,11 @@ import { GoLinkExternal } from "react-icons/go";
 
 const Projects = () => {
     return (
-        <section id='Projects' className='w-full min-h-screen mt-5 p-2 md:p-5 mb-5'>
+        <section id='Projects' className='w-full min-h-screen mt-5 p-2 md:p-5 mb-5 scroll-mt-20'>
             <div className="">
-                <h1 className='text-center text-4xl'>Projects</h1>
+                <h1 className='text-center text-2xl font-bold md:text-3xl'>Projects</h1>
             </div>
-            <div className="rnelevators flex flex-col-reverse md:flex-row w-full min-h-[80vh] justify-center items-center p-2 md:p-10 border border-amber-300">
+            <div className="rnelevators flex flex-col-reverse md:flex-row w-full min-h-[80vh] justify-center items-center p-2 md:p-10">
                 <div className="left flex flex-col w-full md:w-1/2  p-5 md:px-10 space-y-1 md:space-y-4">
                     <h2 className='md:text-6xl'>R&N Elevators</h2>
                     <p className='text-gray-500'>Designed and developed the official website for R N Elevators to strengthen their online presence and enhance business credibility. The website was structured to present their project portfolio, reinforce brand credibility through industry partnerships, and support lead generation.</p>
@@ -41,7 +41,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="veebrite flex flex-col-reverse md:flex-row-reverse w-full min-h-[80vh] justify-center items-center p-2 md:p-10 border border-amber-950">
+            <div className="veebrite flex flex-col-reverse md:flex-row-reverse w-full min-h-[80vh] justify-center items-center p-2 md:p-10">
                 <div className="left flex flex-col w-full md:w-1/2 p-5 md:px-10 space-y-1 md:space-y-4">
                     <h2 className='text-xl md:text-6xl'>Veebrite</h2>
                     <p className='text-gray-500 text-sm md:text-base'>Designed and developed the official website for Veebrite to establish a strong and modern digital presence. The website focuses on showcasing architectural and design expertise through a clean, visually structured layout that reflects the agency’s brand identity and professional standards.</p>

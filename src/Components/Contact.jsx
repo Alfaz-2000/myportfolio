@@ -5,8 +5,8 @@ import { FiPhoneCall } from "react-icons/fi";
 import { CiMail } from "react-icons/ci";
 const Contact = () => {
   return (
-    <div id='Contact' className='main w-full min-h-screen mt-5'>
-      <h2 className='text-center text-xl font-bold sm:text-2xl md:text-4xl '>Contact Me</h2>
+    <div id='Contact' className='main w-full min-h-screen mt-5 scroll-mt-20'>
+      <h2 className='text-center font-bold text-2xl md:text-3xl '>Contact Me</h2>
       <p className='text-center text-xs py-2 px-16 sm:text-xl mt-2 sm:mt-5 text-gray-500'>Contact me to discuss opportunities, projects, or collaborations.</p>
       <div className="myinfo flex flex-col sm:flex-row gap-5 justify-center items-center mt-5 min-h-[50vh]">
         <div className="mysocial sm:w-1/3 mt-3">
@@ -27,7 +27,7 @@ const Contact = () => {
         <div className="mymail sm:w-1/3 mt-3">
         <span className='flex justify-center text-3xl sm:text-6xl mb-3 sm:mb-10'><CiMail /></span>
         <h3 className='text-center mb-2 text-lg'>E-mail</h3>
-          <a className='flex justify-center text-lg' href="mailto:alfazappu74@gmail.com" target="_blank" rel="noopener noreferrer">alfazappu74@gmail.com</a>
+          <a className='flex justify-center text-md' href="mailto:alfazappu74@gmail.com" target="_blank" rel="noopener noreferrer">alfazappu74@gmail.com</a>
         </div>
       </div>
 
