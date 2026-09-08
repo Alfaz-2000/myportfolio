@@ -24,7 +24,7 @@ const Navbar = () => {
         <a onClick={handleClick} href="#Projects">Projects</a>
         <a onClick={handleClick} href="#Services">Services</a>
         <a onClick={handleClick} href="#Contact">Contact</a>
-        <a onClick={handleClick} href='/Alfaz_resume.pdf' className='bg-[#34C759] rounded-full px-5 py-2'>Download Resume</a>
+        <a onClick={handleClick} href='/Alfaz.pdf' className='bg-[#34C759] rounded-full px-5 py-2'>Download Resume</a>
       </div>
     )}
 
@@ -39,7 +39,7 @@ const Navbar = () => {
         <a onClick={handleClick} href="#Contact">Contact</a>
       </div>
       <div className="">
-        <a onClick={handleClick} href='/Alfaz_resume.pdf' className='border border-[#34C759] rounded-full px-5 py-2'>Download Resume</a>
+        <a onClick={handleClick} href='/Alfaz.pdf' className='border border-[#34C759] rounded-full px-5 py-2'>Download Resume</a>
       </div>
     </nav>
     </>
