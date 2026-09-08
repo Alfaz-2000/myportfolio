@@ -8,7 +8,7 @@ const Projects = () => {
             <div className="">
                 <h1 className='text-center text-2xl font-bold md:text-3xl'>Projects</h1>
             </div>
-            <div className="rnelevators flex flex-col-reverse md:flex-row w-full min-h-[80vh] justify-center items-center p-2 md:p-10">
+            <div className="rnelevators flex flex-col-reverse md:flex-row-reverse w-full min-h-[80vh] justify-center items-center p-2 md:p-10">
                 <div className="left flex flex-col w-full md:w-1/2  p-5 md:px-10 space-y-1 md:space-y-4">
                     <h2 className='md:text-6xl'>Al Kiswah Travels</h2>
                     <p className='text-gray-500'>DDesigned and developed the official website for Al Kiswah Travels to establish a professional online presence and make their travel services easier for customers to explore. The website was structured to present their services clearly, build customer trust, and provide a straightforward path for visitors to make inquiries.</p>
