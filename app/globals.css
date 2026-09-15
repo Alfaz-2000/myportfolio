@@ -9,11 +9,17 @@ h2,
 h3 {
   font-family: var(--font-roboto);
 }
+.heading{
+  font-family: var(--font-roboto);
+}
+.para{
+  font-family: var(--font-poppins);
+}
 
-.script-font {
+.badscript {
   font-family: var(--font-bad-script);
 }
 
-.montez-font {
+.montez {
   font-family: var(--font-montez);
 }
